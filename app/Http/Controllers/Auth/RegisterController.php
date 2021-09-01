@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\User;
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
+use File;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -53,13 +54,14 @@ class RegisterController extends Controller
     public function register(Request $request)
     {
         $this->validator($request->all())->validate();
-        dd('asas');
+
         DB::beginTransaction();
         event(new Registered($user = $this->create($request->all())));
         DB::commit();
 
         return response()->json([
-            'success'     => 'Registrasi berhasil',
+            'message'     => 'Registrasi berhasil',
+            'status' => 200
         ], 200);
 //        return $this->registered($request, $user)
 //            ?: redirect('/login');
@@ -74,11 +76,11 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'g-recaptcha-response' => ['required','captcha'],
+//            'g-recaptcha-response' => ['required','captcha'],
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-//            'image' => 'required|file|max:1024|mimes:jpeg,png,jpg',
+            'image' => 'required|file|max:1024|mimes:jpeg,png,jpg',
         ]);
     }
 
@@ -98,22 +100,22 @@ class RegisterController extends Controller
             'status' => false
         ]);
 
-//        if(isset($data['image'])) {
-//            $data = $data['image'];
-//            $extension = $data->getClientOriginalExtension();
-//            $filename = 'logo_' . $user->id. '.' . $extension;
-//            $path = public_path('uploads/user/');
-//            $usersImage = public_path("uploads/user/{$filename}"); // get previous image from folder
-//
-//            if (File::exists($usersImage)) { // unlink or remove previous image from folder
-//                unlink($usersImage);
-//            }
-//            $data->move($path, $filename);
-//            $update = DB::table('users')->where('id', $user->id)->update([
-//                'image' => $filename,
-//                'updated_at' => Carbon::now(),
-//            ]);
-//        }
+        if(isset($data['image'])) {
+            $data = $data['image'];
+            $extension = $data->getClientOriginalExtension();
+            $filename = 'logo_' . $user->id. '.' . $extension;
+            $path = public_path('uploads/user/');
+            $usersImage = public_path("uploads/user/{$filename}"); // get previous image from folder
+
+            if (File::exists($usersImage)) { // unlink or remove previous image from folder
+                unlink($usersImage);
+            }
+            $data->move($path, $filename);
+            $update = DB::table('users')->where('id', $user->id)->update([
+                'image' => $filename,
+                'updated_at' => Carbon::now(),
+            ]);
+        }
 
         return $user;
     }

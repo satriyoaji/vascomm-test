@@ -8,6 +8,9 @@
 
     <title>Register | {{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Ladda style -->
+    <link href="{{URL::asset('theme/css/plugins/ladda/ladda-themeless.min.css')}}" rel="stylesheet">
+
     <!-- Favicons -->
     <link href="{{URL::asset('assets/logo-rji.jpg')}}" rel="icon">
     <link href="{{URL::asset('assets/logo-rji.jpg')}}" rel="apple-touch-icon">
@@ -147,35 +150,35 @@
 
                             <div class="form-group">
                                 <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autofocus placeholder="Name">
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
+{{--                                @error('name')--}}
+                                    <span class="text-danger text-sm-left invalid-feedback-name" role="alert">
+{{--                                    <strong>{{ $message }}</strong>--}}
+                                    </span>
+{{--                                @enderror--}}
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autofocus placeholder="email">
-                                @error('email')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
+{{--                                @error('email')--}}
+                                <span class="text-danger text-sm-left invalid-feedback-email" role="alert">
+{{--                                    <strong>{{ $message }}</strong>--}}
                                 </span>
-                                @enderror
+{{--                                @enderror--}}
                             </div>
                             <div class="form-group">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required placeholder="password">
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
+{{--                                @error('password')--}}
+                                    <span class="text-danger text-sm-left invalid-feedback-password" role="alert">
+{{--                                    <strong>{{ $message }}</strong>--}}
+                                    </span>
+{{--                                @enderror--}}
                             </div>
                             <div class="form-group mt-2 mb-1">
                                 <input id="password_confirmation" type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation" required placeholder="password confirmation">
-                                @error('password_confirmation')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
+{{--                                @error('password_confirmation')--}}
+                                <span class="text-danger text-sm-left invalid-feedback-password_confirmation" role="alert">
+{{--                                    <strong>{{ $message }}</strong>--}}
                                 </span>
-                                @enderror
+{{--                                @enderror--}}
                             </div>
                             <div class="form-group mt-2 mb-1">
                                 <div class="col-sm-12 custom-file">
@@ -184,8 +187,8 @@
                                         {{$data->image ?? 'Foto Selfie'}}
                                     </label>
                                     @error('image')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                    <span class="text-danger text-sm-left invalid-feedback-image" role="alert">
+{{--                                        <strong>{{ $message }}</strong>--}}
                                     </span>
                                     @enderror
                                     <div class="text-warning font-italic text-small">
@@ -210,7 +213,6 @@
     </div>
 </div>
 
-@include('components.auth.register-script')
 <script>
     // $(document).ready(function () {
     //     $('.g-recaptcha div').first().css("width", "100%");
@@ -219,6 +221,101 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<!-- Ladda -->
+<script src="{{URL::asset('theme/js/plugins/ladda/spin.min.js')}}"></script>
+<script src="{{URL::asset('theme/js/plugins/ladda/ladda.min.js')}}"></script>
+<script src="{{URL::asset('theme/js/plugins/ladda/ladda.jquery.min.js')}}"></script>
+
+<script>
+  $(document).ready(function () {
+    function generateToast (type, data) {
+      this.type = type;
+      this.data = data;
+
+      $('.notif').removeAttr('class').attr('class', 'notif');
+
+      if (type == "success") {
+        $('#notifTitle').html("Success");
+        $('#notifMessage').html(data);
+        $('.notif').addClass('toast');
+        $('.notif').addClass('toast-success');
+        $('.notif').addClass('animated');
+        $('.notif').addClass('slideInRight');
+        $('.notif').toast('show');
+      }
+
+      else if (type == "error") {
+        $('#notifTitle').html("Error");
+        $('#notifMessage').html(data);
+        $('.notif').addClass('toast');
+        $('.notif').addClass('toast-danger');
+        $('.notif').addClass('animated');
+        $('.notif').addClass('slideInRight');
+        $('.notif').toast('show');
+      }
+    }
+
+    var inputFormId = '#registerForm';
+
+    $(inputFormId).on('submit', function (event) {
+      event.preventDefault();
+
+      let url_action = '/register';
+      let formData = new FormData(this);
+
+      $.ajax({
+        headers: {
+          "X-CSRF-TOKEN": $(
+            'meta[name="csrf-token"]'
+          ).attr("content")
+        },
+        url: url_action,
+        method: "POST",
+        data: formData,
+        cache:false,
+        contentType: false,
+        processData: false,
+        beforeSend:function(){
+          let l = $( '.ladda-button-submit' ).ladda();
+          l.ladda( 'start' );
+          $('[class^="invalid-feedback-"]').html('');
+          $('#registerBtn').prop('disabled', true);
+        },
+        error: function(data){
+          let errors = data.responseJSON.errors;
+          if (errors) {
+            $.each(errors, function (index, value) {
+              $('span.invalid-feedback-'+index).html(value);
+            })
+          }
+        },
+        success: function (data) {
+          console.log(data.status)
+          if (data.status == 200) {
+            window.location = "/login";
+            setTimeout(function(){
+              generateToast ('success', data.success);
+            }, 2000);
+          }
+          else {
+            swal.fire({
+              titleText: "Action Failed",
+              text: data.error,
+              icon: "error",
+            });
+          }
+        },
+        complete: function () {
+          let l = $( '.ladda-button-submit' ).ladda();
+          l.ladda( 'stop' );
+          $('#registerBtn'). prop('disabled', false);
+        }
+      });
+      // $('#description').summernote('code', '');
+    });
+  });
+
+</script>
 <script>
     $.ajaxSetup({
         headers: {
