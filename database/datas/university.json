@@ -1,0 +1,920 @@
+[
+    {
+        "name": "Universitas Syiah Kuala, Banda Aceh"
+    },
+    {
+        "name": "Universitas Malikussaleh, Lhokseumawe"
+    },
+    {
+        "name": "Politeknik Negeri Lhokseumawe, Lhokseumawe"
+    },
+    {
+        "name": "Politeknik Negeri Aceh, Banda Aceh"
+    },
+    {
+        "name": "Universitas Samudra, Langsa"
+    },
+    {
+        "name": "Universitas Teuku Umar, Meulaboh"
+    },
+    {
+        "name": "Politeknik Aceh, Banda Aceh"
+    },
+    {
+        "name": "UIN Ar-Raniry, Banda Aceh"
+    },
+    {
+        "name": "STAIN Malikussaleh, Lhokseumawe"
+    },
+    {
+        "name": "STAIN Zawiyah Cot Kala, Langsa"
+    },
+    {
+        "name": "Akademi Komunitas Negeri (AKN) Aceh Barat Daya"
+    },
+    {
+        "name": "STAIN Gajah Putih Takengon"
+    },
+    {
+        "name": "IAIN Langsa, Langsa"
+    },
+    {
+        "name": "STAIN Malikussaleh, Lhokseumawe"
+    },
+    {
+        "name": "STAIN Gajah Putih Takengon, Takengon"
+    },
+    {
+        "name": "STAIN Teungku Dirundeng, Melabuh"
+    },
+    {
+        "name": "Politeknik Kesehatan Banda Aceh"
+    },
+    {
+        "name": "Universitas Serambi Mekkah"
+    },
+    {
+        "name": "Universitas Sumatera Utara, Medan"
+    },
+    {
+        "name": "Universitas Negeri Medan, Medan"
+    },
+    {
+        "name": "Politeknik Negeri Medan, Medan"
+    },
+    {
+        "name": "Politeknik Negeri Media Kreatif, Medan"
+    },
+    {
+        "name": "Institut Agama Islam Negeri Sumatera utara, Medan"
+    },
+    {
+        "name": "Poltekes Depkes Medan, Medan"
+    },
+    {
+        "name": "STAIN Padang Sidempuan, Padang Sidempuan"
+    },
+    {
+        "name": "UIN Sumatera Utara, Medan"
+    },
+    {
+        "name": "IAIN Padang Sidempuan, Tapanuli Selatan"
+    },
+    {
+        "name": "Akademi Teknik Keselamatan Penerbangan (ATKP) Medan"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Kristen Protestan Negeri Tarutung"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Medan"
+    },
+    {
+        "name": "Politeknik Negeri Medan"
+    },
+    {
+        "name": "kademi Tek. Kes. Penerbangan (ATKP), Medan"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian Medan "
+    },
+    {
+        "name": "Universitas Andalas, Padang"
+    },
+    {
+        "name": "Universitas Negeri Padang, Padang"
+    },
+    {
+        "name": "Politeknik Negeri Padang, Padang"
+    },
+    {
+        "name": "Politeknik Pertanian, Payakumbuh"
+    },
+    {
+        "name": "STSI (Sekolah Tinggi Seni Indonesia Padang Panjang), Padang Panjang"
+    },
+    {
+        "name": "IAIN Imam Bonjol, Padang"
+    },
+    {
+        "name": "STAIN Batusangkar"
+    },
+    {
+        "name": "STAIN Bukittinggi"
+    },
+    {
+        "name": "ISI Padang Panjang"
+    },
+    {
+        "name": "IAIN Imam Bonjol, Padang"
+    },
+    {
+        "name": "STAIN Sjech M. Djamil Djambek , Bukittinggi"
+    },
+    {
+        "name": "Politeknik Negeri Sriwijaya"
+    },
+    {
+        "name": "Universitas Riau, Pekanbaru"
+    },
+    {
+        "name": "UIN Sultan Syarif Kasim (SUSKA), Pekanbaru"
+    },
+    {
+        "name": "Politeknik Negeri Bengkalis"
+    },
+    {
+        "name": "Universitas Maritim Raja Ali Haji"
+    },
+    {
+        "name": "Politeknik Negeri Batam"
+    },
+    {
+        "name": "UIN Sultan Syarif Kasim, Riau"
+    },
+    {
+        "name": "STAIN Bengkalis, Riau (Riau)"
+    },
+    {
+        "name": "Universitas Jambi, Jambi"
+    },
+    {
+        "name": "STAIN Kerinci"
+    },
+    {
+        "name": "IAIN Sultan Thaha Saifuddin"
+    },
+    {
+        "name": "Politeknik Kesehatan Jambi"
+    },
+    {
+        "name": "Universitas Bengkulu, Bengkulu"
+    },
+    {
+        "name": "IAIN Bengkulu"
+    },
+    {
+        "name": "STAIN CURUP"
+    },
+    {
+        "name": "Poltekkes Kemenkes Bengkulu"
+    },
+    {
+        "name": "STAIN Curup, Rejang Lebong"
+    },
+    {
+        "name": "Universitas Sriwijaya, Palembang"
+    },
+    {
+        "name": "Politeknik Negeri Sriwijaya, Palembang"
+    },
+    {
+        "name": "Poltekkes depkes Palembang, Palembang"
+    },
+    {
+        "name": "Akademi Komunitas Negeri Prabumulih, Prabumulih"
+    },
+    {
+        "name": "IAIN Raden Fatah"
+    },
+    {
+        "name": "Universitas Lampung, Bandar Lampung"
+    },
+    {
+        "name": "Politeknik Negeri Lampung, Bandar Lampung"
+    },
+    {
+        "name": "Poltekkes Kemenkes Tanjungkarang, Bandar Lampung"
+    },
+    {
+        "name": "STIM (Sekolah Tinggi Olahraga Metro), Kota Metro"
+    },
+    {
+        "name": "Institut Agama Islam Negeri Raden Intan, Bandar Lampung"
+    },
+    {
+        "name": "STAIN Jurai Siwo Metro"
+    },
+    {
+        "name": "IAIN Raden Intan, Bandar Lampung"
+    },
+    {
+        "name": "Universitas Bangka Belitung, Bangka Belitung"
+    },
+    {
+        "name": "Politeknik Manufaktur, Bangka Belitung"
+    },
+    {
+        "name": "Poltekkes Kemenkes Pangkal Pinang, Bangka Belitung"
+    },
+    {
+        "name": "STAIN Syekh Abdurrahman Siddik, Bangka Belitung"
+    },
+    {
+        "name": "Universitas Sultan Ageng Tirtayasa, Serang"
+    },
+    {
+        "name": "Perguruan Tinggi Buddhi, Karawaci"
+    },
+    {
+        "name": "IAIN Sultan Maulana Hasanuddin"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Kampus Daerah Serang"
+    },
+    {
+        "name": "Universitas Terbuka Pondok Cabe"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang"
+    },
+    {
+        "name": "Akademi Meteorologi dan Geofisika (AMG) Tangerang"
+    },
+    {
+        "name": "Institut Agama Islam Banten (IAIB)"
+    },
+    {
+        "name": "Universitas Indonesia"
+    },
+    {
+        "name": "Universitas Pertahanan Indonesia (UNHAN)"
+    },
+    {
+        "name": "Universitas Negeri Jakarta"
+    },
+    {
+        "name": "Universitas Terbuka"
+    },
+    {
+        "name": "Politeknik Negeri Jakarta"
+    },
+    {
+        "name": "Politeknik Negeri Media Kreatif, Jakarta"
+    },
+    {
+        "name": "UIN Syarif Hidayatullah Jakartaâ€Ž"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Pelayaran Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Manajemen Industri Indonesia"
+    },
+    {
+        "name": "Akademi Pimpinan Perusahaan (APP), Jakarta"
+    },
+    {
+        "name": "Institut Ilmu Pemerintahan, IIP, Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Akuntansi Negara, STAN"
+    },
+    {
+        "name": "Sekolah Tinggi Hukum Militer, STHM"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Administrasi, LAN Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Kepolisian (PTIK), Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Pelayaran (STIP), Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Statistik (STIS), Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Manajemen Industri(STMI), Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Penerbangan Indonesia (PI), Jakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Perikanan (STP), Jakarta"
+    },
+    {
+        "name": "Politeknik Kesehatan Jakarta I   "
+    },
+    {
+        "name": "Politeknik Kesehatan Jakarta II"
+    },
+    {
+        "name": "Politeknik Negeri Jakarta"
+    },
+    {
+        "name": "Politeknik Manufaktur Negeri Bandung, Bandung"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Bandung"
+    },
+    {
+        "name": "Universitas Padjadjaran, Bandung"
+    },
+    {
+        "name": "Universitas Jenderal Achmad Yani, Bandung"
+    },
+    {
+        "name": "Institut Pertanian Bogor, Bogor"
+    },
+    {
+        "name": "Institut Teknologi Bandung, Bandung"
+    },
+    {
+        "name": "Politeknik Negeri Bandung, Bandung"
+    },
+    {
+        "name": "Politeknik Indramayu, Indramayu"
+    },
+    {
+        "name": "Universitas Siliwangi (UNSIL), Tasikmalaya"
+    },
+    {
+        "name": "niversitas Singaperbangsa (UNSIKA), Kampus Daerah Karawang"
+    },
+    {
+        "name": "Universitas Swadaya Gunung Jati (Unswagati) di Kota Cirebon"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Kampus Daerah Cibiru"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Kampus Daerah Tasikmalaya"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Kampus Daerah Sumedang"
+    },
+    {
+        "name": "Universitas Pendidikan Indonesia, Kampus Daerah Purwakarta"
+    },
+    {
+        "name": "Akademi Ilmu Pemasyarakatan (AKIP), Depok"
+    },
+    {
+        "name": "Akademi Imigrasi (AIM) Depok"
+    },
+    {
+        "name": "Akademi Kimia Analis (AKA) Bogor"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Administrasi, Bandung"
+    },
+    {
+        "name": "Sekolah Tinggi Sandi Negara (STSN), Bogor"
+    },
+    {
+        "name": "Sekolah Tinggi Seni Indonesia (STSI), Bandung"
+    },
+    {
+        "name": "Sekolah Tinggi Transportasi Darat (STTD), Bekasi"
+    },
+    {
+        "name": "Sekolah Tinggi Kesejahteraan Sosial (STKS), Bandung"
+    },
+    {
+        "name": "Sekolah Tinggi Pemerintahan Dalam Negeri (STPDN), Sumedang"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Bogor"
+    },
+    {
+        "name": "STAIN Cirebon"
+    },
+    {
+        "name": "Politeknik Kesehatan Bandung"
+    },
+    {
+        "name": "Politeknik Manufaktur Bandung"
+    },
+    {
+        "name": "Politeknik Negeri Bali, Badung"
+    },
+    {
+        "name": "Universitas Diponegoro, Semarang"
+    },
+    {
+        "name": "Universitas Negeri Semarang, Semarang"
+    },
+    {
+        "name": "Universitas Jenderal Soedirman, Purwokerto"
+    },
+    {
+        "name": "Universitas Negeri Surakarta Sebelas Maret, Surakarta"
+    },
+    {
+        "name": "Politeknik Negeri Semarang, Semarang "
+    },
+    {
+        "name": "Politeknik Maritim Negeri Indonesia, Semarang"
+    },
+    {
+        "name": "Institut Seni Indonesia Surakarta, Surakarta (ISI Solo, dahulu STSI)"
+    },
+    {
+        "name": "Universitas Tidar Magelang, Magelang"
+    },
+    {
+        "name": "UIN Walisongo, Semarang"
+    },
+    {
+        "name": "IAIN Surakarta, Surakarta"
+    },
+    {
+        "name": "STAIN Kudus, Kudus"
+    },
+    {
+        "name": "STAIN Pekalongan, Pekalongan"
+    },
+    {
+        "name": "IAIN Salatiga, Salatiga"
+    },
+    {
+        "name": "IAIN Purwokerto, Purwokerto"
+    },
+    {
+        "name": "Akademi Kepolisian (AKPOL),Semarang"
+    },
+    {
+        "name": "Akademi Militer (AKMIL) TNI AD, Magelang"
+    },
+    {
+        "name": "Akademi Minyak dan Gas Bumi (AKAMIGAS), Blora"
+    },
+    {
+        "name": "Akademi Sanitasi dan Kesehatan Lingkungan (ASKK), Purwokerto"
+    },
+    {
+        "name": "Sekolah Tinggi Seni Indonesia (STSI), Surakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Magelang"
+    },
+    {
+        "name": "Politeknik Ilmu Pelayaran Semarang"
+    },
+    {
+        "name": "Politeknik Kesehatan Semarang"
+    },
+    {
+        "name": "Politeknik Kesehatan Surakarta"
+    },
+    {
+        "name": "Universitas Gadjah Mada"
+    },
+    {
+        "name": "Universitas Negeri Yogyakarta"
+    },
+    {
+        "name": "Institut Seni Indonesia Yogyakarta"
+    },
+    {
+        "name": "Universita Terbuka  UPBJJ Yogyakarta"
+    },
+    {
+        "name": "Akademi Teknologi Kulit Yogyakarta (ATK)"
+    },
+    {
+        "name": "Universitas Pembangunan Nasional Veteran (UPN), Yogyakarta"
+    },
+    {
+        "name": "UIN Sunan Kalijaga"
+    },
+    {
+        "name": "Akademi Angkatan Udara (AAU), Yogyakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Pertanahan Nasional (STPN), Yogyakarta"
+    },
+    {
+        "name": "Sekolah Tinggi Teknologi Nuklir (STTN), Yogyakarta"
+    },
+    {
+        "name": "Politeknik Kesehatan Yogyakarta"
+    },
+    {
+        "name": "Universitas Airlangga, Surabaya"
+    },
+    {
+        "name": "Universitas Negeri Surabaya, Surabaya"
+    },
+    {
+        "name": "Universitas Brawijaya, Malang"
+    },
+    {
+        "name": "Universitas Negeri Malang, Malang"
+    },
+    {
+        "name": "Universitas Jember, Jember"
+    },
+    {
+        "name": "Universitas Trunojoyo, Bangkalan"
+    },
+    {
+        "name": "Politeknik Elektronika Negeri Surabaya, Surabaya"
+    },
+    {
+        "name": "Politeknik Perkapalan Negeri Surabaya, Surabaya"
+    },
+    {
+        "name": "Politeknik Negeri Madura, Sampang"
+    },
+    {
+        "name": "Politeknik Negeri Malang, Malang"
+    },
+    {
+        "name": "Politeknik Negeri Madiun, Madiun"
+    },
+    {
+        "name": "Politeknik Negeri Jember, Jember"
+    },
+    {
+        "name": "Institut Teknologi Sepuluh Nopember, Surabaya"
+    },
+    {
+        "name": "Akademi Komunitas Negeri, Bojonegoro"
+    },
+    {
+        "name": "Akademi Komunitas Negeri, Pacitan"
+    },
+    {
+        "name": "Universitas Pembangunan Nasional Veteran (UPN), Surabaya"
+    },
+    {
+        "name": "Politeknik Negeri Banyuwangi, Banyuwangi"
+    },
+    {
+        "name": "Akademi Komunitas Negeri Lamongan, Lamongan"
+    },
+    {
+        "name": "Akademi Komunitas Negeri Sumenep. Sumenep"
+    },
+    {
+        "name": "Akademi Komunitas Negeri Bojonegoro, Bojonegoro"
+    },
+    {
+        "name": "Universitas Islam Negeri Maulana Malik Ibrahim, Malang"
+    },
+    {
+        "name": "STAIN Kediri"
+    },
+    {
+        "name": "STAIN Ponorogo"
+    },
+    {
+        "name": "UIN Sunan Ampel"
+    },
+    {
+        "name": "IAIN Tulungagung"
+    },
+    {
+        "name": "UIN Maulana Malik Ibrahim, Malang"
+    },
+    {
+        "name": "STAIN Pamekasan, Pamekasan"
+    },
+    {
+        "name": "Akademi Angkatan Laut (AAL), Surabaya"
+    },
+    {
+        "name": "Teknik Keselamatan Penerbangan (ATKP) Surabaya"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Malang"
+    },
+    {
+        "name": "IAIN Jember, Jember"
+    },
+    {
+        "name": "Politeknik Elektronika Negeri Surabaya"
+    },
+    {
+        "name": "Politeknik Kesehatan Malang"
+    },
+    {
+        "name": "Politeknik Kesehatan Surabaya"
+    },
+    {
+        "name": "Politeknik Pertanian Negeri Jember"
+    },
+    {
+        "name": "Akademi TKP â€“ Surabaya "
+    },
+    {
+        "name": "Universitas Mataram, Mataram"
+    },
+    {
+        "name": "IAIN Mataram, Lombok"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Hindu Negeri (STAHN) Gde Puja, Mataram"
+    },
+    {
+        "name": "Universitas Nusa Cendana, Kupang"
+    },
+    {
+        "name": "Politeknik Negeri Kupang, Kupang"
+    },
+    {
+        "name": "Politeknik Pertanian Negeri Kupang, Kupang"
+    },
+    {
+        "name": "Universitas Udayana, Denpasar"
+    },
+    {
+        "name": "Universitas Pendidikan Ganesha, Singaraja"
+    },
+    {
+        "name": "Politeknik Negeri Bali, Kuta-Badung"
+    },
+    {
+        "name": "Institut Seni Indonesia Denpasar, Denpasar"
+    },
+    {
+        "name": "Politeknik Negeri Tanah Lot"
+    },
+    {
+        "name": "Institut Hindu Dharma Negeri (IHDN) Denpasar"
+    },
+    {
+        "name": "Akademi Kebidanan Pemprov Bali singaraja"
+    },
+    {
+        "name": "Sekolah Tinggi Pariwisata Bali"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Kristen Negeri (STAKN) Denpasar"
+    },
+    {
+        "name": "Politeknik Kesehatan Denpasar"
+    },
+    {
+        "name": "Universitas Tanjungpura, Pontianak"
+    },
+    {
+        "name": "Politeknik Negeri Pontianak, Pontianak"
+    },
+    {
+        "name": "Politeknik Kesehatan Kementerian Kesehatan, Pontianak"
+    },
+    {
+        "name": "Politeknik Terpikat Sambas"
+    },
+    {
+        "name": "Politeknik Tonggak Equator"
+    },
+    {
+        "name": "Politeknik Ketapang"
+    },
+    {
+        "name": "Politeknik Tunas Bangsa"
+    },
+    {
+        "name": "IAIN Pontianak sebelumnya STAIN Pontianak"
+    },
+    {
+        "name": "Universitas Palangka Raya, Palangka Raya"
+    },
+    {
+        "name": "IAIN Palangkaraya, Palangkaraya"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Hindu Negeri Tampung Peyang, Palangka Raya"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Kristen Negeri (STAKN) Palangkaraya"
+    },
+    {
+        "name": "Universitas Lambung Mangkurat, Banjarmasin"
+    },
+    {
+        "name": "Politeknik Negeri Banjarmasin, Banjarmasin"
+    },
+    {
+        "name": "IAIN ANTASARI, Banjarmasin"
+    },
+    {
+        "name": "Poltekkes Banjarmasin"
+    },
+    {
+        "name": "Ooliteknik Pertanian Negeri Samarinda"
+    },
+    {
+        "name": "Universitas Mulawarman, Samarinda"
+    },
+    {
+        "name": "Politeknik Negeri Samarinda, Samarinda"
+    },
+    {
+        "name": "Politeknik Pertanian Negeri Samarinda, Samarinda"
+    },
+    {
+        "name": "Universitas Borneo Tarakan, Tarakan"
+    },
+    {
+        "name": "Politeknik Balikpapan, Balikpapan"
+    },
+    {
+        "name": "IAIN Samarinda, Samarinda"
+    },
+    {
+        "name": "Universitas Borneo Tarakan"
+    },
+    {
+        "name": "Universitas Sam Ratulangi, Manado"
+    },
+    {
+        "name": "Universitas Negeri Manado, Manado"
+    },
+    {
+        "name": "Politeknik Negeri Manado, Manado"
+    },
+    {
+        "name": "Politeknik Negeri Nusa Utara, Tahuna"
+    },
+    {
+        "name": "IAIN Manado, Manado (Sulawesi Utara)"
+    },
+    {
+        "name": "Politeknik Kesehatan Manado"
+    },
+    {
+        "name": "Politeknik Negeri Manado"
+    },
+    {
+        "name": "Universitas Negeri Gorontalo, Gorontalo"
+    },
+    {
+        "name": "IAIN Sultan Amai, Gorontalo"
+    },
+    {
+        "name": "Universitas Tadulako, Palu"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Ekonomi (YPP Mujahidin), Tolitoli"
+    },
+    {
+        "name": "IAIN Dato Karamau, Palu"
+    },
+    {
+        "name": "STAIN Datokarama, Palu"
+    },
+    {
+        "name": "Politeknik Kesehatan Kemenkes Makassar, Makassar"
+    },
+    {
+        "name": "Universitas Hasanuddin, Makassar"
+    },
+    {
+        "name": "Universitas Negeri Makassar"
+    },
+    {
+        "name": "Politeknik Pertanian Negeri Pangkajene Kepulauan, Pangkajene Kepulauan"
+    },
+    {
+        "name": "Politeknik Negeri Ujung pandang, Makassar"
+    },
+    {
+        "name": "Universitas Maiwa Enrekang"
+    },
+    {
+        "name": "Politeknik Negeri Media Kreatif, Makassar"
+    },
+    {
+        "name": "Universitas Islam Negeri Makassar"
+    },
+    {
+        "name": "UIN Alauddin, Makassar"
+    },
+    {
+        "name": "STAIN Watampone, Bone"
+    },
+    {
+        "name": "STAIN Parepare, Parepare"
+    },
+    {
+        "name": "IAIN Palopo, Palopo"
+    },
+    {
+        "name": "Akademi Teknik Keselamatan Penerbangan (ATKP) Makasar"
+    },
+    {
+        "name": "Sekolah Tinggi Ilmu Adm, Ujung Pandang"
+    },
+    {
+        "name": "Sekolah Tinggi Seni Indonesia, Padang Panjang"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Kristen Negeri (STAKN) Toraja"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Gowa"
+    },
+    {
+        "name": "Akademi Teknik Keselamatan Penerbangan Makasar"
+    },
+    {
+        "name": "Universitas Haluoleo, Kendari"
+    },
+    {
+        "name": "Sekolah Tinggi Pertanian (STIP) Muna Kampus Baru, Muna"
+    },
+    {
+        "name": "STAIN Kendari"
+    },
+    {
+        "name": "Universitas 19 November Kolaka"
+    },
+    {
+        "name": "Universitas Muhammadiyah Kendari"
+    },
+    {
+        "name": "Universitas Lakidende"
+    },
+    {
+        "name": "Universitas Dayanu Iksanudin"
+    },
+    {
+        "name": "Universitas Muhammadiyah Buton"
+    },
+    {
+        "name": "Universitas Sulawesi Tenggara"
+    },
+    {
+        "name": "IAIN Kendari, Palu"
+    },
+    {
+        "name": "Universitas Negeri Sulawesi Barat"
+    },
+    {
+        "name": "Universitas Pattimura, Ambon"
+    },
+    {
+        "name": "Universitas Darussalam, Ambon"
+    },
+    {
+        "name": "Politeknik Negeri Ambon, Ambon"
+    },
+    {
+        "name": "Politeknik Perikanan Negeri Tual, Tual"
+    },
+    {
+        "name": "STAKPN Ambon"
+    },
+    {
+        "name": "IAIN Ambon"
+    },
+    {
+        "name": "Sekolah Tinggi Agama Kristen Protestan Negeri Ambon"
+    },
+    {
+        "name": "STAIN Ambon"
+    },
+    {
+        "name": "Universitas Khairun, Ternate"
+    },
+    {
+        "name": "IAIN Ternate, Ternate"
+    },
+    {
+        "name": "Universitas Cendrawasih, Jayapura"
+    },
+    {
+        "name": "Universitas Musamus Merauke, Merauke"
+    },
+    {
+        "name": "STAIN Al-Fatah, Jayapura"
+    },
+    {
+        "name": "Sekolah Tinggi. Agama Kristen Negeri (STAKN) Jayapura"
+    },
+    {
+        "name": "Universitas Negeri Papua, Manokwari "
+    },
+    {
+        "name": "STAIN Sorong, Sorong"
+    },
+    {
+        "name": "Sekolah Tinggi Penyuluhan Pertanian (STTP) Manokwari"
+    }
+]

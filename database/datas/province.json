@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Bali",
+        "id": 1
+    },
+    {
+        "name": "Bangka Belitung",
+        "id": 2
+    },
+    {
+        "name": "Banten",
+        "id": 3
+    },
+    {
+        "name": "Bengkulu",
+        "id": 4
+    },
+    {
+        "name": "DI Yogyakarta",
+        "id": 5
+    },
+    {
+        "name": "DKI Jakarta",
+        "id": 6
+    },
+    {
+        "name": "Gorontalo",
+        "id": 7
+    },
+    {
+        "name": "Jambi",
+        "id": 8
+    },
+    {
+        "name": "Jawa Barat",
+        "id": 9
+    },
+    {
+        "name": "Jawa Tengah",
+        "id": 10
+    },
+    {
+        "name": "Jawa Timur",
+        "id": 11
+    },
+    {
+        "name": "Kalimantan Barat",
+        "id": 12
+    },
+    {
+        "name": "Kalimantan Selatan",
+        "id": 13
+    },
+    {
+        "name": "Kalimantan Tengah",
+        "id": 14
+    },
+    {
+        "name": "Kalimantan Timur",
+        "id": 15
+    },
+    {
+        "name": "Kalimantan Utara",
+        "id": 16
+    },
+    {
+        "name": "Kepulauan Riau",
+        "id": 17
+    },
+    {
+        "name": "Lampung",
+        "id": 18
+    },
+    {
+        "name": "Maluku",
+        "id": 19
+    },
+    {
+        "name": "Maluku Utara",
+        "id": 20
+    },
+    {
+        "name": "Nanggroe Aceh Darussalam",
+        "id": 21
+    },
+    {
+        "name": "Nusa Tenggara Barat",
+        "id": 22
+    },
+    {
+        "name": "Nusa Tenggara Timur",
+        "id": 23
+    },
+    {
+        "name": "Papua",
+        "id": 24
+    },
+    {
+        "name": "Papua Barat",
+        "id": 25
+    },
+    {
+        "name": "Riau",
+        "id": 26
+    },
+    {
+        "name": "Sulawesi Barat",
+        "id": 27
+    },
+    {
+        "name": "Sulawesi Selatan",
+        "id": 28
+    },
+    {
+        "name": "Sulawesi Tengah",
+        "id": 29
+    },
+    {
+        "name": "Sulawesi Tenggara",
+        "id": 30
+    },
+    {
+        "name": "Sulawesi Utara",
+        "id": 31
+    },
+    {
+        "name": "Sumatera Barat",
+        "id": 32
+    },
+    {
+        "name": "Sumatera Selatan",
+        "id": 33
+    },
+    {
+        "name": "Sumatera Utara",
+        "id": 34
+    }
+]

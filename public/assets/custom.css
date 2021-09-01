@@ -1,0 +1,48 @@
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.bg-landing {
+    background-image: url(../theme/img/bg-vector1.jpg);
+    background-size: cover;
+}
+
+.toast {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+    border-radius: 7px;
+}
+
+.toast.show {
+    opacity: 0.8;
+}
+.toast.show:hover {
+    opacity: 1;
+}
+.toast-header {
+    border: none;
+}
+.toast.toast-success .toast-header {
+    background-color: #06866d;
+    color: white;
+}
+.toast.toast-success .toast-body {
+    background-color: #1ab394;
+    font-size: 10pt;
+    color: white;
+}
+.toast.toast-danger .toast-header {
+    background-color: #a70e1d;
+    color: white;
+}
+.toast.toast-danger .toast-body {
+    background-color: #ED5565;
+    font-size: 10pt;
+    color: white;
+}
